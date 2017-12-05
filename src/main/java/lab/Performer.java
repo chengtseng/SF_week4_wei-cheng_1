@@ -5,7 +5,7 @@ public class Performer {
 	protected String id;
 	private Audition audition;
 			
-	Performer(Audition audi){
+	public Performer(Audition audi){
 		boolean addingSuccessfully = audi.addPerformer(this);
 		
 		if(!addingSuccessfully) return;
